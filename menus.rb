@@ -1,4 +1,4 @@
-require_relative 'menus_commands'
+require_relative 'menu_commands'
 
 class Menus
   include MenusCommands

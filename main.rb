@@ -9,7 +9,7 @@ require_relative 'wagon_cargo'
 require_relative 'wagon_passenger'
 require_relative 'menus'
 
-def seed
+def seed    
   @tc = TrainCargo.new(1)
   @tp = TrainPassenger.new(10)
 
